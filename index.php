@@ -17,8 +17,8 @@
         <div id="container">
             <div id="info">
                 <div id="cover">&nbsp;</div>
-                <h2 id="title">Title lorem ispum dolor sit ametasd sad asd as dasdasd aasd d asa sda sda sdasd asd </h2>
-                <h3 id="artist">Artist</h3>
+                <h2 id="title"></h2>
+                <h3 id="artist"></h3>
             </div>
 
             <div id="playpause" onclick="playpause()">&#x23ef;</div>
