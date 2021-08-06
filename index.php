@@ -22,12 +22,12 @@
             </div>
 
             <div id="playpause" onclick="playpause()">&#x23ef;</div>
-            
+
         </div>
     </div>
     <div id="menu-list">
         <div id="close-button" onclick="toggleList()">&times;</div>
-        <input type="text" name="search" id="search" placeholder="Search" onkeyup="search()" >
+        <input type="text" name="search" id="search" placeholder="Search" onkeyup="search()">
         <div id="list">
             <?php
                 $stations_json = file_get_contents('https://open.fm/api/static/stations/stations_new.json');
@@ -41,7 +41,7 @@
                     ';}
             ?>
         </div>
-    </div>   
+    </div>
     <script src="player.js"></script>
 </body>
 
