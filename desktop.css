@@ -7,7 +7,7 @@ body {
 }
 
 body {
-    background: linear-gradient(#000, #500);
+    background: linear-gradient(#fff, rgb(63, 197, 224));
 }
 
 div {
@@ -16,7 +16,7 @@ div {
 
 #start {
     z-index: 1;
-    color: whitesmoke;
+    color: white;
     font-family: sans-serif;
     text-align: center;
     position: absolute;
@@ -44,8 +44,8 @@ div {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
-    box-shadow: 0px 0px 5px 5px black;
-    background-color: black;
+    box-shadow: 0px 0px 5px 5px white;
+    background-color: white;
     transition: linear .3s;
     transition-property: width, height;
 }
@@ -57,8 +57,8 @@ div {
     margin: 25px;
     height: 200px;
     border-radius: 10px;
-    box-shadow: 0px 0px 3px 3px rgb(54, 0, 0);
-    background-color: rgb(54, 0, 0);
+    box-shadow: 0px 0px 3px 3px rgb(63, 197, 224);
+    background-color: rgb(63, 197, 224);
     transition: linear .3s;
     transition-property: width, height;
 }
@@ -87,7 +87,7 @@ div {
     overflow: hidden;
     max-height: 150px;
     margin-left: 200px;
-    color: whitesmoke;
+    color: black;
     font-family: sans-serif;
 }
 
@@ -99,8 +99,8 @@ div {
     right: 10px;
     width: calc(50% - 20px);
     height: calc(100% - 20px);
-    background-color: rgb(54, 0, 0);
-    box-shadow: 0px 0px 3px 3px rgb(54, 0, 0);
+    background-color: rgb(63, 197, 224);
+    box-shadow: 0px 0px 3px 3px rgb(63, 197, 224);
     border-radius: 10px;
 }
 
@@ -117,7 +117,7 @@ div {
 
 #search {
     position: absolute;
-    color: whitesmoke;
+    color: black;
     right: 10px;
     width: calc(100% - 20px);
     top: 10px;
@@ -131,8 +131,8 @@ div {
     outline: none;
     border: none;
     text-align: center;
-    background-color: black;
-    box-shadow: 0px 0px 3px 3px black;
+    background-color: white;
+    box-shadow: 0px 0px 3px 3px white;
 }
 #playpause {
     margin: auto;
@@ -145,12 +145,12 @@ div {
     line-height: 80px;
     border-radius: 50%;
     text-align: center;
-    background-color: rgb(54, 0, 0);
-    box-shadow: 0px 0px 3px 3px rgb(54, 0, 0);
+    background-color: rgb(63, 197, 224);
+    box-shadow: 0px 0px 3px 3px rgb(63, 197, 224);
 }
 
 .station {
-    color: whitesmoke;
+    color: black;
     margin-left: 10px;
     margin-top: 20px;
     padding: 5px;
@@ -159,8 +159,8 @@ div {
     user-select: none;
     cursor: pointer;
     border-radius: 10px;
-    background-color: black;
-    box-shadow: 0px 0px 3px 3px black;
+    background-color: white;
+    box-shadow: 0px 0px 3px 3px white;
 }
 
 .station.active {
