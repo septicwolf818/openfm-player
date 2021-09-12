@@ -7,7 +7,7 @@ body {
 }
 
 body {
-    background: linear-gradient(#fff, rgb(63, 197, 224));
+    background: linear-gradient(rgb(195, 195, 195), rgb(63, 197, 224));
 }
 
 div {

@@ -7,13 +7,13 @@ body {
 }
 
 body {
-    background: linear-gradient(#000, #500);
+    background: linear-gradient(rgb(195, 195, 195), rgb(63, 197, 224));
 
 }
 
 #start {
     z-index: 1;
-    color: black;
+    color: white;
     font-family: sans-serif;
     text-align: center;
     position: absolute;
@@ -24,7 +24,7 @@ body {
 
 #menu-button {
     position: absolute;
-    color: black;
+    color: white;
     right: 10px;
     top: 10px;
     width: 50px;
