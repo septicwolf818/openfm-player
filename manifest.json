@@ -1,9 +1,17 @@
 {
+    "short_name": "OpenFM",
     "name": "OpenFM Player",
-    "short_name": "Open FM",
-    "theme_color": "rgb(63,197,224)",
+    "icons": [
+      {
+        "src": "/favicon.ico",
+        "type": "image/x-icon",
+        "sizes": "16x16"
+      }
+    ],
+    "start_url": "/",
     "background_color": "#ffffff",
     "display": "standalone",
-    "orientation": "portrait",
-    "start_url": "https://openfm-player.herokuapp.com/"
+    "scope": "/",
+    "theme_color": "rgb(63,197,224)",
+    "description": "Ads-free OpenFM Player"
   }
