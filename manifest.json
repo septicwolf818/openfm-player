@@ -1,0 +1,9 @@
+{
+    "name": "OpenFM Player",
+    "short_name": "Open FM",
+    "theme_color": "rgb(63,197,224)",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "orientation": "portrait",
+    "start_url": "https://openfm-player.herokuapp.com/"
+  }
