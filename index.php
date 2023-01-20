@@ -7,7 +7,6 @@
     <title>OpenFM Player</title>
     <link rel="stylesheet" media="screen and (min-width: 1050px)" href="desktop.css">
     <link rel="stylesheet" media="screen and (max-width: 1050px)" href="mobile.css">
-    <link rel="manifest" href="/manifest.json">
 </head>
 
 <body>
